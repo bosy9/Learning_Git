@@ -1,0 +1,31 @@
+class Student:
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+    def introduce(self):
+        print(f"Hello, my name is {self.name}")
+    def study(self, subject):
+        print(f"I am studying {subject}")
+
+    def is_passed(self):
+        if self.grade >= 50:
+            print("Student passed")
+        else:
+            print("Student failed")
+s1 = Student("Bassant", 19, 85)
+s1.introduce()
+s1.study("English")
+s1.is_passed()
+
+print("-" * 25)
+
+s2 = Student("Mohamed", 21, 40)
+s2.introduce()
+s2.study("Math")
+s2.is_passed()
+print("-" * 25)
+s3 = Student("Ahmed", 19, 70)
+s3.introduce()
+s3.study("Physics")
+s3.is_passed()
