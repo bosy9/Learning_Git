@@ -17,9 +17,7 @@ s1 = Student("Bassant", 19, 85)
 s1.introduce()
 s1.study("English")
 s1.is_passed()
-
 print("-" * 25)
-
 s2 = Student("Mohamed", 21, 40)
 s2.introduce()
 s2.study("Math")
